@@ -1,6 +1,7 @@
 services:
   # -- Backend service --
   backend:
+    platform: linux/amd64
     build:
       context: .
       dockerfile: Dockerfile
