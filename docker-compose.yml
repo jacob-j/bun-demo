@@ -1,0 +1,9 @@
+services:
+  # -- Backend service --
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: ["bun", "run", "dev"]
+    ports:
+      - "1995:1995"
