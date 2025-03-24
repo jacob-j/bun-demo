@@ -6,4 +6,4 @@ services:
       dockerfile: Dockerfile
     command: ["bun", "run", "dev"]
     ports:
-      - "1995:1995"
+      - "3000:3000"
